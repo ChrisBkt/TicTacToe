@@ -1,0 +1,126 @@
+object TicTacToe: TTicTacToe
+  Left = 688
+  Height = 500
+  Top = 254
+  Width = 600
+  Caption = 'TicTacToe'
+  ClientHeight = 500
+  ClientWidth = 600
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object WinnerText: TLabel
+    Left = 8
+    Height = 1
+    Top = 8
+    Width = 1
+    ParentColor = False
+  end
+  object Field11: TLabel
+    Left = 176
+    Height = 76
+    Top = 112
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field11Click
+  end
+  object Field12: TLabel
+    Left = 276
+    Height = 76
+    Top = 112
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field12Click
+  end
+  object Field13: TLabel
+    Left = 376
+    Height = 76
+    Top = 112
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field13Click
+  end
+  object Field21: TLabel
+    Left = 176
+    Height = 76
+    Top = 212
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field21Click
+  end
+  object Field22: TLabel
+    Left = 276
+    Height = 76
+    Top = 212
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field22Click
+  end
+  object Field23: TLabel
+    Left = 376
+    Height = 76
+    Top = 212
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field23Click
+  end
+  object Field31: TLabel
+    Left = 176
+    Height = 76
+    Top = 312
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field31Click
+  end
+  object Field32: TLabel
+    Left = 276
+    Height = 76
+    Top = 312
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field32Click
+  end
+  object Field33: TLabel
+    Left = 376
+    Height = 76
+    Top = 312
+    Width = 28
+    Caption = '-'
+    Font.Height = 64
+    ParentColor = False
+    ParentFont = False
+    OnClick = Field33Click
+  end
+  object Reset: TButton
+    Left = 480
+    Height = 25
+    Top = 8
+    Width = 115
+    Caption = 'Neu Beginnen'
+    OnClick = ResetClick
+    TabOrder = 0
+  end
+end
